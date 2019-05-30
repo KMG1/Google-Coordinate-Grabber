@@ -1,6 +1,8 @@
 # Google Coordinate Grabber
 
-This small console app is designed to read in a tab delimited text file that contains address information. It then takes this information and runs it through Google's GeoLocation API Service in an attempt to determine the geographic coordinates.
+This small console app is designed to read in a tab delimited text file that contains address information. It then takes this information and runs it through Google's GeoLocation API Service in an attempt to determine the geographic coordinates. 
+
+This was originally written as a quick utility to augment work I did for a friend who needed to display thousands of addresses onto Google Maps. The original file they worked with contained written addresses, so I wrote this program to quickly fetch the geographic coordinates to plot them on a webpage using Google Maps.
 
 ## Input File
 
